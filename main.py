@@ -254,13 +254,13 @@ nombres = ['Esteban', 'Jose', 'Maria', 'Luis']
 
 # ! crear un rango de numeros de 2 a 6 , e imprimirlos
 
-for i in range(2,7):
-	print(i)
+# for i in range(2,7):
+# 	print(i)
 
 #! crear un rango de 3 a 10, pero con incremento de 2 en 2, en lugar de 1 en 1 
 
-for i in range(3,11,2):
-	print(i)
+# for i in range(3,11,2):
+# 	print(i)
 
 
 
@@ -312,6 +312,76 @@ nombres[0] = 'Pedro'
 # ? el metodo clear() esto nos permite vaciar la lista
 
 # nombres.clear()
+
+# ! ====================================>
+
+# TODO: TUPLAS : es muy parecida a una lista se puede seguir guardando elemento en orden, pero no se pueden modficar, agregar, eliminar elementos. Las tuplas son reconocdas como inmutables
+
+# definir una tupla
+
+# frutas = ('Naranja','Platanos',',Manzana')
+
+# largo de una tupla
+
+# print(f'la cantidad de frutas diferentes es de: {len(frutas)}')
+
+# acceder a un elemento
+
+# print(frutas[0])
+
+# navegacion inversa
+
+# print(frutas[-1])
+
+# acceder a rango / sin incuir el ultimo indice
+
+# print(frutas[0:2])
+
+# recorrer una tupla / le agregamos un end al final del print para cambiar lo que imprime por defecto q es un salto de linea \n
+
+# for fruta in frutas:
+# 	print(fruta,end=' - ')
+
+# * conversion de tupla a una lista para poder modificarla
+
+# con el metodo list() convertimos la tupla en una lista
+
+# frutaLista = list(frutas)
+
+# frutaLista[0] = 'Pera'
+
+# con el metodo tuple() convertimos la lista en una tupla
+
+# frutas = tuple(frutaLista)
+
+# print('\n',frutas)
+
+# elimiar tupla por completo
+
+# del frutas
+
+# ! ===========================>
+
+# TODO : Ejercicio tupla
+
+# ? dada la siguiente tupla, crear una lista que solo incluya los numeros menores a 5 
+
+# tupla = (13,1,8,3,2,5,8)
+# lista =[]
+
+# for num in tupla:
+# 	if num < 5:
+# 		lista.append(num)
+
+# print('lista con numeros menores a 5 :',lista)
+
+
+
+
+
+
+
+
 
 
 
